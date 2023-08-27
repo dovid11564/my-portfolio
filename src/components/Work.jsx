@@ -130,6 +130,8 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
+                {/* previosu work experience */}
+                <div></div>
             </div>
         </div>
     )
