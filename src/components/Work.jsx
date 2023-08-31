@@ -2,10 +2,11 @@ import React from "react";
 import RPG from '../assets/projects/VGImage.png';
 const Work = () => {
     return (
-        <div name='work' className="w:full md:h-screen text-gray-300 bg-[#0a192f]">
+        // might be a good idea to change the text colors not from yellow if I keep this gradient in 
+        <div name='work' className="w:full md:h-screen text-yellow bg-green">
             <div className="m-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
-                    <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
+                    <p className="text-4xl font-bold inline border-b-4 text-yellow border-yellow">
                         Work
                     </p>
                     <p className="py-6"> Check out some of my recent work!</p>
@@ -25,11 +26,11 @@ const Work = () => {
                             <div className="pt-8 text-center">
                                 <a href="/">
                                     {/* this should be a link to a demo */}
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg">Demo</button>
                                 </a>
                                 <a href="/">
                                     {/* this is a link to the repo */}
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg">Code</button>
                                 </a>
                             </div>
                         </div>
@@ -44,11 +45,11 @@ const Work = () => {
                             <div className="pt-8 text-center">
                                 <a href="/">
                                     {/* this should be a link to a demo */}
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg">Demo</button>
                                 </a>
                                 <a href="/">
                                     {/* this is a link to the repo */}
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg">Code</button>
                                 </a>
                             </div>
                         </div>
@@ -63,11 +64,11 @@ const Work = () => {
                             <div className="pt-8 text-center">
                                 <a href="/">
                                     {/* this should be a link to a demo */}
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg">Demo</button>
                                 </a>
                                 <a href="/">
                                     {/* this is a link to the repo */}
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg">Code</button>
                                 </a>
                             </div>
                         </div>
@@ -82,11 +83,11 @@ const Work = () => {
                             <div className="pt-8 text-center">
                                 <a href="/">
                                     {/* this should be a link to a demo */}
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg">Demo</button>
                                 </a>
                                 <a href="/">
                                     {/* this is a link to the repo */}
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg">Code</button>
                                 </a>
                             </div>
                         </div>
@@ -101,11 +102,11 @@ const Work = () => {
                             <div className="pt-8 text-center">
                                 <a href="/">
                                     {/* this should be a link to a demo */}
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg">Demo</button>
                                 </a>
                                 <a href="/">
                                     {/* this is a link to the repo */}
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg">Code</button>
                                 </a>
                             </div>
                         </div>
@@ -120,11 +121,11 @@ const Work = () => {
                             <div className="pt-8 text-center">
                                 <a href="/">
                                     {/* this should be a link to a demo */}
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg">Demo</button>
                                 </a>
                                 <a href="/">
                                     {/* this is a link to the repo */}
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg">Code</button>
                                 </a>
                             </div>
                         </div>
