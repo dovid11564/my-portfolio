@@ -11,7 +11,8 @@ const NavBar = () => {
     const handleClick = () => setNav(!nav);
 
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+        // text yellow below changes the icon colors
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-green text-yellow">
             <div>
                 <img src={CSS} alt='placeholder logo' style={{ width: "50px" }} />
             </div>
@@ -52,7 +53,7 @@ const NavBar = () => {
             </div>
 
             {/* mobile menu */}
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-green flex flex-col justify-center items-center'}>
                 <li className="py-6 text-4xl">
                     {' '}
                     <Link onClick={handleClick} to="home" smooth={true} offset={50} duration={500} >
