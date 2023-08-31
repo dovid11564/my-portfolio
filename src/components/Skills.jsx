@@ -8,8 +8,8 @@ import Python from '../assets/skills/Python-Dark.svg';
 import Ruby from '../assets/skills/Ruby.svg';
 import Git from '../assets/skills/Git.svg';
 import PostGres from '../assets/skills/PostgreSQL-Dark.svg';
-const Skills = () => {
 
+const Skills = () => {
     return (
         <div name='skills' className="w-full h-screen bg-green text-yellow">
             {/* countainter */}

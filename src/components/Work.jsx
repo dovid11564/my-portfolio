@@ -121,7 +121,7 @@ const Work = () => {
                             <div className="pt-8 text-center">
                                 <a href="/">
                                     {/* this should be a link to a demo */}
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg">Demo</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-green font-bold text-lg">Demo</button>
                                 </a>
                                 <a href="/">
                                     {/* this is a link to the repo */}
