@@ -21,37 +21,37 @@ const Skills = () => {
                     <p className="py-4">These are some of the technologies I am most familiar with. </p>
                 </div>
                 {/* font-bold? */}
-                <div className="w-full grid grid-cols-2 sm:grid-cols-4 text-center py-8">
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={HTML} alt='HTML Icon' />
+                <div className="w-full grid grid-cols-2 sm:grid-cols-4 text-center ">
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:bg-green'>
+                        <img className='w-20 mx-auto pt-2' src={HTML} alt='HTML Icon' />
                         <p className="my-4">HTML</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={CSS} alt='CSS Icon' />
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:bg-green'>
+                        <img className='w-20 mx-auto pt-2' src={CSS} alt='CSS Icon' />
                         <p className="my-4">CSS</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={JavaScript} alt='JavaScript Icon' />
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:bg-green'>
+                        <img className='w-20 mx-auto pt-2' src={JavaScript} alt='JavaScript Icon' />
                         <p className="my-4">JavaScript</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={ReactJS} alt='React.js Icon' />
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:bg-green'>
+                        <img className='w-20 mx-auto pt-2' src={ReactJS} alt='React.js Icon' />
                         <p className="my-4">React</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={Python} alt='Python Icon' />
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:bg-green'>
+                        <img className='w-20 mx-auto pt-2' src={Python} alt='Python Icon' />
                         <p className="my-4">Python</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={Ruby} alt='Ruby Icon' />
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:bg-green'>
+                        <img className='w-20 mx-auto pt-2' src={Ruby} alt='Ruby Icon' />
                         <p className="my-4">Ruby</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={Git} alt='Git Icon' />
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:bg-green'>
+                        <img className='w-20 mx-auto pt-2' src={Git} alt='Git Icon' />
                         <p className="my-4">Git</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={PostGres} alt='PostgreSQL Icon' />
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:bg-green'>
+                        <img className='w-20 mx-auto pt-2' src={PostGres} alt='PostgreSQL Icon' />
                         <p className="my-4">PostgreSQL</p>
                     </div>
                 </div>
