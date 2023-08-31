@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import CSS from '../assets/skills/CSS.svg';
+import Monogram from '../assets/profile/Monogram.png';
 import { Link } from 'react-scroll';
 
 const NavBar = () => {
@@ -14,7 +14,7 @@ const NavBar = () => {
         // text yellow below changes the icon colors
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-green text-yellow">
             <div>
-                <img src={CSS} alt='placeholder logo' style={{ width: "50px" }} />
+                <img src={Monogram} alt='My Initials, DE' style={{ width: "50px" }} />
             </div>
 
             {/* menu */}
@@ -87,9 +87,9 @@ const NavBar = () => {
             </ul>
 
             {/* social icons */}
-            <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+            <div className="hidden lg:flex fixed flex-col top-[35%] left-0 font-bold">
                 <ul>
-                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-blue-600" >
+                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#0077B5]" >
                         <a className='flex justify-between items-center w-full text-gray-300'
                             href='https://www.linkedin.com/in/dovid-edelkopf/'
                             target="_blank"
@@ -105,7 +105,7 @@ const NavBar = () => {
                             GitHub <FaGithub size={30} />
                         </a>
                     </li>
-                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#6fc2b0]" >
+                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#c71610]" >
                         <a className='flex justify-between items-center w-full text-gray-300'
                             href='/'>
                             Email <HiOutlineMail size={30} />
