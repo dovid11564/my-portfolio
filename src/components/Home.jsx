@@ -7,10 +7,9 @@ const Home = () => {
         <div name='home'
             className='w-full h-screen bg-green'>
 
-
             {/* container */}
             <div className='w-full grid grid-cols-2 text-center py-8'>
-              <img src={Profile} alt='Profile of Dovid Edelkopf' style={{ width: "50px" }}/>  
+              <img src={Profile} alt='Profile of Dovid Edelkopf' className='rounded-full'/>  
             <div className="m-w-[1000px] mx-auto px-44 flex flex-col justify-center h-full">
                 <p className="text-green">Hi, my name is</p>
                 <h1 className='text-4xl sm:7xl font-bold text-[#ccd6f6]'>Dovid Edelkopf</h1>
