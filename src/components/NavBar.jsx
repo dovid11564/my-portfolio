@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import CSS from '../assets/skills/CSS.svg';
+import Monogram from '../assets/profile/Monogram.png';
 import { Link } from 'react-scroll';
 
 const NavBar = () => {
@@ -14,7 +14,7 @@ const NavBar = () => {
         // text yellow below changes the icon colors
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-green text-yellow">
             <div>
-                <img src={CSS} alt='placeholder logo' style={{ width: "50px" }} />
+                <img src={Monogram} alt='My Initials, DE' style={{ width: "50px" }} />
             </div>
 
             {/* menu */}
