@@ -9,10 +9,8 @@ const Home = () => {
             className='w-full h-screen bg-green'>
 
             {/* container */}
-            <div className='w-full grid lg:grid-cols-2 place-items-center py-8'>
+            <div className='w-full grid lg:grid-cols-2 place-items-center px-4 py-8'>
                 <img src={Profile} alt='Profile of Dovid Edelkopf' className=' rounded-full w-64 lg:w-auto mt-12' />
-                {/* rounded-full mt-12 w-64 md:max-w-lg */}
-                {/* rounded-full max-w-lg mt-12 */}
                 <div className="m-w-[1000px]">
                     <p className="text-yellow">Hi, my name is</p>
                     <h1 className='text-4xl sm:7xl font-bold text-[#ccd6f6]'>Dovid Edelkopf</h1>
@@ -30,7 +28,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
