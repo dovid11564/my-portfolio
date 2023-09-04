@@ -1,5 +1,7 @@
 import React from "react";
 import RPG from '../assets/projects/VGImage.png';
+import SURF from '../assets/projects/surfwatch.png';
+import METRO from '../assets/projects/metroline.jpeg';
 const Work = () => {
     return (
         // might be a good idea to change the text colors not from yellow if I keep this gradient in 
@@ -16,7 +18,7 @@ const Work = () => {
                 <div
                     className="grid grid-cols-1 md:grid-cols-3 gap-16 ">
                     {/* grid item - copy this and change it for each project*/}
-                    <div style={{ backgroundImage: `url(${RPG})` }}
+                    <div style={{ backgroundImage: `url(${SURF})` }}
                         className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:border-2 hover:border-yellow">
                         {/* hover effetcs */}
                         <div className="opacity-0 group-hover:opacity-100">
@@ -37,7 +39,7 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
-                    <div style={{ backgroundImage: `url(${RPG})` }}
+                    <div style={{ backgroundImage: `url(${METRO})` }}
                         className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:border-2 hover:border-yellow">
                         {/* hover effetcs */}
                         <div className="opacity-0 group-hover:opacity-100">
