@@ -11,8 +11,8 @@ import PostGres from '../assets/skills/PostgreSQL-Dark.svg';
 
 const Skills = () => {
     return (
-        <div name='skills' className="w-full md:h-screen bg-green text-yellow">
-            {/* countainter */}
+        <div name='skills' className="w-full bg-green text-yellow py-16 ">
+            {/* countainer */}
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
                 <div>
                     <p className="text-4xl font-bold inline border-b-4 border-yellow">
@@ -21,7 +21,7 @@ const Skills = () => {
                     <p className="py-4">These are some of the technologies I am most familiar with. </p>
                 </div>
                 {/* font-bold? */}
-                <div className="w-full grid grid-cols-2 sm:grid-cols-4 text-center ">
+                <div className="w-full grid grid-cols-2 md:grid-cols-4 text-center ">
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:bg-green'>
                         <img className='w-20 mx-auto pt-2' src={HTML} alt='HTML Icon' />
                         <p className="my-4">HTML</p>
