@@ -5,7 +5,7 @@ import METRO from '../assets/projects/metroline.jpeg';
 const Work = () => {
     return (
         // might be a good idea to change the text colors not from yellow if I keep this gradient in 
-        <div name='work' className="w-full min-h-min text-yellow bg-green lg:px-44 pt-10  ">
+        <div name='work' className="w-full min-h-min text-yellow bg-green lg:px-44 pt-10 lg:pt-[110px] ">
             <div className="p-4 flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
                     <p className="text-4xl font-bold inline border-b-4 text-yellow border-yellow">
