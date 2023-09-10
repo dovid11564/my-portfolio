@@ -11,7 +11,7 @@ import PostGres from '../assets/skills/PostgreSQL-Dark.svg';
 
 const Skills = () => {
     return (
-        <div name='skills' className="w-full bg-green text-yellow py-16 ">
+        <div name='skills' className="w-full bg-green text-yellow py-16 lg:pt-[110px]">
             {/* countainer */}
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
                 <div>
