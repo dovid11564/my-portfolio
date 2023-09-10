@@ -4,6 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Monogram from '../assets/profile/Monogram.png';
 import { Link } from 'react-scroll';
+import Resume from '../../public/Dovid_Edelkopf_Resume.pdf';
 
 const NavBar = () => {
 
@@ -105,15 +106,18 @@ const NavBar = () => {
                             GitHub <FaGithub size={30} />
                         </a>
                     </li>
-                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#c71610]" >
-                        <a className='flex justify-between items-center w-full text-gray-300'
-                            href='/'>
-                            Email <HiOutlineMail size={30} />
-                        </a>
-                    </li>
+                    <Link to="contact" smooth={true} offset={50} duration={500} >
+                        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#c71610]" >
+                            <a className='flex justify-between items-center w-full text-gray-300'>
+                                Email <HiOutlineMail size={30} />
+                            </a>
+                        </li>
+                    </Link>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#565f69]" >
                         <a className='flex justify-between items-center w-full text-gray-300'
-                            href='/'>
+                            href={Resume}
+                            target="_blank"
+                            rel="noreferrer" >
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
